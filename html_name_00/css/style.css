@@ -1,0 +1,112 @@
+/* ここから下に記載していく */
+
+.html {
+    font-size: 62.5%;
+}
+
+.body {
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+.header img {
+    float: right
+    max-width: 100%;
+    height: auto;
+}
+
+.header-list li {
+    float: left;
+    font-size: 2.1rem;
+    margin: 50px;
+}
+
+.container {
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+    width: 560px;
+    margin: auto;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h2 {
+    position: absolute;
+    color: white;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.english_title {
+    font-size: 2.4rem;
+    color: #222;
+    padding-top: 6.0rem;
+    padding-bottom: 3.0rem;
+}
+
+span {
+    color: #ffd61a;
+}
+
+.japanese_title {
+    font-size: 1.8rem;
+    padding-bottom: 6.0rem;
+}
+
+.about-list ul {
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.parent-box {
+    display: flex;
+}
+
+.parent-box .side-img {
+    width: 640px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.parent-box .side-img {
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+.map {
+    width: 100%;
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.map inframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+    height: 100%
+}
+
+.submit {
+    background: #ffd61a;
+    font-size: 18px;
+    margin: 300px 60px 300px 60px;
+}
